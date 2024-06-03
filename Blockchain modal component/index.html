@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Blockchain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-body">    
+        <!-- container -->
+        <div class="main-container">
+            <div class="header">
+                <span>Swap</span>
+                <img src="assets/settings.svg" height="18" width="18" alt="settings">
+            </div>
+
+            <!-- this is the balance detail container -->
+            <div class="balance-detail-container">
+                <!-- first line -->
+                <div class="balance-numeric-details">
+                   <span>For: <span class="font-grey">TON</span></span>
+                   <span class="balance-numeric">
+                        <span class="font-grey">Balance:</span>
+                        <br>
+                        <span>560.05059 TGR</span>
+                   </span> 
+                </div>
+                <!-- second line -->
+                <div class="balance-function-container">
+                    <span class="currency-number-container">
+                        <span class="currency-name">
+                            <span>
+                                <img src="assets/ton.svg" height="24" width="24" alt="TON" class="currency-icon">
+                                TON
+                                <a href="#"><img src="assets/more-options.svg" height="14" width="3" alt="more options" class="more-option"></a>
+                            </span>
+                        </span>
+                        <span class="currency-number font-grey">
+                            0
+                        </span>
+                    </span>
+                    
+                    <button class="btn">Max</button>
+                </div>
+            </div>
+
+            <div class="balance-detail-container balance-container-2">
+                <!-- first line -->
+                <div class="balance-numeric-details">
+                   <span>For: <span class="font-grey">TGR</span></span>
+                   <img src="assets/scroll-v.svg" height="18" width="18" alt="arrow-icon">
+                   <span class="balance-numeric">
+                        <span class="font-grey">Balance:</span>
+                        <br>
+                        <span>560.05059 TGR</span>
+                   </span> 
+                </div>
+                <!-- second line -->
+                <div class="balance-function-container">
+                    <span class="currency-number-container">
+                        <span class="currency-name">
+                            <span>
+                                <img src="assets/tgr.svg" height="24" width="24" alt="TON" class="currency-icon">
+                                TGR
+                                <a href="#"><img src="assets/more-options.svg" height="14" width="3" alt="more options" class="more-option"></a>
+                            </span>
+                        </span>
+                        <span class="currency-number font-grey">
+                            0
+                        </span>
+                    </span>
+                </div>
+            </div>
+            
+            <ul class="details">
+                <li>Price: <span class="font-grey">1 TON per 10 TGR</span></li>
+                <li>Slippage Tolarance: <span class="font-grey">0.1%</span></li>
+                <li>Minimum received: <span class="font-grey">0 TGR</span></li>
+                <li>Price Impact: <span class="font-green">0.01%</span></li>
+                <li>Route: <span class="font-grey">TON > TGR</span></li>
+            </ul>
+
+            <button class="primary-btn">
+                Connect Wallet
+            </button>
+        </div>
+    </div>
+</body>
+</html>
